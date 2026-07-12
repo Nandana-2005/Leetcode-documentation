@@ -146,7 +146,8 @@ public class MinimumTimeRequired {
         long products = 0;
 
         for (long machine : machines) {
-
+            //calculates products produced for a particular day
+            //'machine' days gives 1 item then how many items does 'days' day produce is the formula used below 
             products += days / machine;
 
             // Prevent unnecessary computation
